@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav>
+                <a href="#" class="header__logo icon-logo"></a>
+                <ul class="header__list">
+                    <li class="header__list-item">
+                        <a href="#">Furniture</a>
+                        <span class="header__arrow arrow"></span>
+                        <ul class="header__sublist">
+                            <li>
+                                <a href="#" class="subheader__link">Chair</a>
+                            </li>
+                            <li>
+                                <a href="#" class="subheader__link">Beds</a>
+                            </li>
+                            <li>
+                                <a href="#" class="subheader__link">Sofa</a>
+                            </li>
+                            <li>
+                                <a href="#" class="subheader__link">Lamp</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__list-item"><a href="#">Shop</a></li>
+                    <li class="header__list-item"><a href="#">About Us</a></li>
+                    <li class="header__list-item"><a href="#">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span class="long"></span>
+                    <span></span>
+                </div>
+                <div class="header__cart" data-modal>
+                    <button class="icon-cart"></button>
+                    <span>0</span>
+                </div>
+            </nav>
+        </div>
+        
+    </header>
+    <section class="promo">
+        <img src="img/promo_bg.jpg" alt="background" class="promo__bg">
+        <div class="container">
+            <!-- <div data-tooltip="подсказка" class="tooltip tooltip_1">
+                <div class="pods">
+                    <div class="round round_1"></div>
+                    <div class="round round_2"></div>
+                    <div class="round round_3 round_active"></div>
+                </div>
+            </div>
+            <div data-tooltip="подсказка" class="tooltip tooltip_2">
+                <div class="pods">
+                    <div class="round round_1 round_active"></div>
+                    <div class="round round_2"></div>
+                    <div class="round round_3"></div>
+                </div>
+            </div>
+            <div data-tooltip="подсказка" class="tooltip tooltip_3">
+                <div class="pods">
+                    <div class="round round_1"></div>
+                    <div class="round round_2 round_active"></div>
+                    <div class="round round_3"></div>
+                </div>
+            </div>
+            <div data-tooltip="подсказка" class="tooltip tooltip_4">
+                <div class="pods">
+                    <div class="round round_1"></div>
+                    <div class="round round_2"></div>
+                    <div class="round round_3 round_active"></div>
+                </div>
+            </div> -->
+            <div class="promo__intro">
+                <h1 class="promo__title">
+                    Make your interior more minimalistic & modern
+                </h1>
+                <div class="promo__desc">
+                    Turn your room with panto into a lot more minimalist and modern with ease and speed
+                </div>
+                <div class="promo__search">
+                    <input type="search" placeholder="Search furniture">
+                    <div class="promo__search-icon">
+                        <a href="#" class="icon-search">
+                            <img src="img/icons/search.svg" alt="search">
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </section>
+    <section class="reasons">
+        <div class="container">
+            <div class="reasons__wrapper">
+                <h2 class="reasons__title title">
+                    Why Choosing Us
+                </h2>
+                <div class="reasons__items">
+                    <div class="reasons__item">
+                        <div class="reasons__item-title">
+                            Luxury facilities
+                        </div>
+                        <div class="reasons__item-info">
+                            The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.
+                        </div>
+                        <a href="#" class="reasons__item-more">
+                            <div class=" more ">
+                                More Info
+                            </div>
+                            <span class="icon-arrow"></span>
+                        </a>                        
+                    </div>
+                    <div class="reasons__item">
+                        <div class="reasons__item-title">
+                            Affordable Price
+                        </div>
+                        <div class="reasons__item-info">
+                            You can get a workspace of the highst quality at an affordable price and still enjoy the facilities that are oly here.
+                        </div>
+                        <a href="#" class="reasons__item-more">
+                            <div class=" more ">
+                                More Info
+                            </div>
+                            <span class="icon-arrow"></span>
+                        </a>   
+                    </div>
+                    <div class="reasons__item">
+                        <div class="reasons__item-title">
+                            Many Choices
+                        </div>
+                        <div class="reasons__item-info">
+                            We provide many unique work space choices so that you can choose the workspace to your liking.
+                        </div>
+                        <a href="#" class="reasons__item-more">
+                            <div class=" more ">
+                                More Info
+                            </div>
+                            <span class="icon-arrow"></span>
+                        </a>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product">
+        <div class="container">
+            <h2 class="product__title title">Best Selling Product</h2>
+            <div class="product__wrapper">
+                <div class="product__nav-tabs">
+                    <a href="#" data-tab="1" class="product__nav-tab nav-tab_active">Chair</a>
+                    <a href="#" data-tab="2" class="product__nav-tab">Beds</a>
+                    <a href="#" data-tab="3" class="product__nav-tab">Sofa</a>
+                    <a href="#" data-tab="4" class="product__nav-tab">Lamp</a>
+                </div>
+                <div class="product__tab-content">
+                    <div data-tab-content="1" class="product__tab-pane tab-pane_active">
+                        <!-- Tab content 1 -->
+                        <!-- Slider main container -->
+                        <div class="product__swiper swiper swiper1">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <div class="product__card">
+                                        <div class="product__card-img">
+                                            <img src="img/product/chair1.png" alt="chair 1">
+                                        </div>
+                                        <div class="product__card-footer">
+                                            <div class="product__card-subtitle">
+                                                Chair
+                                            </div>
+                                            <div class="product__card-title">
+                                                Sakarias Armchair
+                                            </div>
+                                            <div class="product__card-rating rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="rating__active"></div>
+                                                    <div class="rating__items">
+                                                        <input type="radio" class="rating__item" value="1" name="rating">
+                                                        <input type="radio" class="rating__item" value="2" name="rating">
+                                                        <input type="radio" class="rating__item" value="3" name="rating">
+                                                        <input type="radio" class="rating__item" value="4" name="rating">
+                                                        <input type="radio" class="rating__item" value="5" name="rating">
+                                                    </div>
+                                                </div>
+                                                <div class="rating__value">3.6</div>
+                                            </div>
+                                            <div class="product__card-triggers">
+                                                <div class="product__card-price">
+                                                     392 <sup>$</sup>
+                                                </div>
+                                                <div class="product__card-plus"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product__card">
+                                        <div class="product__card-img">
+                                            <img src="img/product/chair2.png" alt="chair 1">
+                                        </div>
+                                        <div class="product__card-footer">
+                                            <div class="product__card-subtitle">
+                                                Chair
+                                            </div>
+                                            <div class="product__card-title">
+                                                Baltsar Chair
+                                            </div>
+                                            <div class="product__card-rating rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="rating__active"></div>
+                                                    <div class="rating__items">
+                                                        <input type="radio" class="rating__item" value="1" name="rating">
+                                                        <input type="radio" class="rating__item" value="2" name="rating">
+                                                        <input type="radio" class="rating__item" value="3" name="rating">
+                                                        <input type="radio" class="rating__item" value="4" name="rating">
+                                                        <input type="radio" class="rating__item" value="5" name="rating">
+                                                    </div>
+                                                </div>
+                                                <div class="rating__value">3.6</div>
+                                            </div>
+                                            <div class="product__card-triggers">
+                                                <div class="product__card-price">
+                                                    299 <sup>$</sup>
+                                                </div>
+                                                <div class="product__card-plus"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product__card">
+                                        <div class="product__card-img">
+                                            <img src="img/product/chair3.png" alt="chair 1">
+                                        </div>
+                                        <div class="product__card-footer">
+                                            <div class="product__card-subtitle">
+                                                Chair
+                                            </div>
+                                            <div class="product__card-title">
+                                                Anjay Chair
+                                            </div>
+                                            <div class="product__card-rating rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="rating__active"></div>
+                                                    <div class="rating__items">
+                                                        <input type="radio" class="rating__item" value="1" name="rating">
+                                                        <input type="radio" class="rating__item" value="2" name="rating">
+                                                        <input type="radio" class="rating__item" value="3" name="rating">
+                                                        <input type="radio" class="rating__item" value="4" name="rating">
+                                                        <input type="radio" class="rating__item" value="5" name="rating">
+                                                    </div>
+                                                </div>
+                                                <div class="rating__value">3.6</div>
+                                            </div>
+                                            <div class="product__card-triggers">
+                                                <div class="product__card-price">
+                                                    519 <sup>$</sup>
+                                                </div>
+                                                <div class="product__card-plus"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product__card">
+                                        <div class="product__card-img">
+                                            <img src="img/product/chair4.png" alt="chair 1">
+                                        </div>
+                                        <div class="product__card-footer">
+                                            <div class="product__card-subtitle">
+                                                Chair
+                                            </div>
+                                            <div class="product__card-title">
+                                                Nyantuy Chair
+                                            </div>
+                                            <div class="product__card-rating rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="rating__active"></div>
+                                                    <div class="rating__items">
+                                                        <input type="radio" class="rating__item" value="1" name="rating">
+                                                        <input type="radio" class="rating__item" value="2" name="rating">
+                                                        <input type="radio" class="rating__item" value="3" name="rating">
+                                                        <input type="radio" class="rating__item" value="4" name="rating">
+                                                        <input type="radio" class="rating__item" value="5" name="rating">
+                                                    </div>
+                                                </div>
+                                                <div class="rating__value">3.6</div>
+                                            </div>
+                                            <div class="product__card-triggers">
+                                                <div class="product__card-price">
+                                                    921 <sup>$</sup>
+                                                </div>
+                                                <div class="product__card-plus"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+                        
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev icon-arrow_slider">
+                            </div>
+                            <div class="swiper-button-next icon-arrow_slider"></div>
+                        
+                            <!-- If we need scrollbar -->
+                            <!-- <div class="swiper-scrollbar"></div> -->
+                        </div>
+                    </div>
+                    <div data-tab-content="2" class="product__tab-pane">
+                        <!-- Slider main container -->
+                        <div class="product__slider swiper swiper1">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <div class="product__card">
+                                        <div class="product__card-img">
+                                            <img src="img/product/chair1.png" alt="chair 1">
+                                        </div>
+                                        <div class="product__card-footer">
+                                            <div class="product__card-subtitle">
+                                                Beds
+                                            </div>
+                                            <div class="product__card-title">
+                                                Sakarias Armchair
+                                            </div>
+                                            <div class="product__card-rating rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="rating__active"></div>
+                                                    <div class="rating__items">
+                                                        <input type="radio" class="rating__item" value="1" name="rating">
+                                                        <input type="radio" class="rating__item" value="2" name="rating">
+                                                        <input type="radio" class="rating__item" value="3" name="rating">
+                                                        <input type="radio" class="rating__item" value="4" name="rating">
+                                                        <input type="radio" class="rating__item" value="5" name="rating">
+                                                    </div>
+                                                </div>
+                                                <div class="rating__value">3.6</div>
+                                            </div>
+                                            <div class="product__card-triggers">
+                                                <div class="product__card-price">
+                                                    392 <sup>$</sup>
+                                                </div>
+                                                <div class="product__card-plus"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product__card">
+                                        <div class="product__card-img">
+                                            <img src="img/product/chair2.png" alt="chair 1">
+                                        </div>
+                                        <div class="product__card-footer">
+                                            <div class="product__card-subtitle">
+                                                Beds
+                                            </div>
+                                            <div class="product__card-title">
+                                                Baltsar Chair
+                                            </div>
+                                            <div class="product__card-rating rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="rating__active"></div>
+                                                    <div class="rating__items">
+                                                        <input type="radio" class="rating__item" value="1" name="rating">
+                                                        <input type="radio" class="rating__item" value="2" name="rating">
+                                                        <input type="radio" class="rating__item" value="3" name="rating">
+                                                        <input type="radio" class="rating__item" value="4" name="rating">
+                                                        <input type="radio" class="rating__item" value="5" name="rating">
+                                                    </div>
+                                                </div>
+                                                <div class="rating__value">3.6</div>
+                                            </div>
+                                            <div class="product__card-triggers">
+                                                <div class="product__card-price">
+                                                    299 <sup>$</sup>
+                                                </div>
+                                                <div class="product__card-plus"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product__card">
+                                        <div class="product__card-img">
+                                            <img src="img/product/chair3.png" alt="chair 1">
+                                        </div>
+                                        <div class="product__card-footer">
+                                            <div class="product__card-subtitle">
+                                                Beds
+                                            </div>
+                                            <div class="product__card-title">
+                                                Anjay Chair
+                                            </div>
+                                            <div class="product__card-rating rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="rating__active"></div>
+                                                    <div class="rating__items">
+                                                        <input type="radio" class="rating__item" value="1" name="rating">
+                                                        <input type="radio" class="rating__item" value="2" name="rating">
+                                                        <input type="radio" class="rating__item" value="3" name="rating">
+                                                        <input type="radio" class="rating__item" value="4" name="rating">
+                                                        <input type="radio" class="rating__item" value="5" name="rating">
+                                                    </div>
+                                                </div>
+                                                <div class="rating__value">3.6</div>
+                                            </div>
+                                            <div class="product__card-triggers">
+                                                <div class="product__card-price">
+                                                    519 <sup>$</sup>
+                                                </div>
+                                                <div class="product__card-plus"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product__card">
+                                        <div class="product__card-img">
+                                            <img src="img/product/chair4.png" alt="chair 1">
+                                        </div>
+                                        <div class="product__card-footer">
+                                            <div class="product__card-subtitle">
+                                                Beds
+                                            </div>
+                                            <div class="product__card-title">
+                                                Nyantuy Chair
+                                            </div>
+                                            <div class="product__card-rating rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="rating__active"></div>
+                                                    <div class="rating__items">
+                                                        <input type="radio" class="rating__item" value="1" name="rating">
+                                                        <input type="radio" class="rating__item" value="2" name="rating">
+                                                        <input type="radio" class="rating__item" value="3" name="rating">
+                                                        <input type="radio" class="rating__item" value="4" name="rating">
+                                                        <input type="radio" class="rating__item" value="5" name="rating">
+                                                    </div>
+                                                </div>
+                                                <div class="rating__value">3.6</div>
+                                            </div>
+                                            <div class="product__card-triggers">
+                                                <div class="product__card-price">
+                                                    921 <sup>$</sup>
+                                                </div>
+                                                <div class="product__card-plus"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+                        
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev icon-arrow_slider">
+                            </div>
+                            <div class="swiper-button-next icon-arrow_slider"></div>
+                        
+                            <!-- If we need scrollbar -->
+                            <!-- <div class="swiper-scrollbar"></div> -->
+                        </div>
+                    </div>
+                    <div data-tab-content="3" class="product__tab-pane">
+                        <!-- Slider main container -->
+                        <div class="product__slider swiper swiper1">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <div class="product__card">
+                                        <div class="product__card-img">
+                                            <img src="img/product/chair3.png" alt="chair 1">
+                                        </div>
+                                        <div class="product__card-footer">
+                                            <div class="product__card-subtitle">
+                                                Sofa
+                                            </div>
+                                            <div class="product__card-title">
+                                                Anjay Chair
+                                            </div>
+                                            <div class="product__card-rating rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="rating__active"></div>
+                                                    <div class="rating__items">
+                                                        <input type="radio" class="rating__item" value="1" name="rating">
+                                                        <input type="radio" class="rating__item" value="2" name="rating">
+                                                        <input type="radio" class="rating__item" value="3" name="rating">
+                                                        <input type="radio" class="rating__item" value="4" name="rating">
+                                                        <input type="radio" class="rating__item" value="5" name="rating">
+                                                    </div>
+                                                </div>
+                                                <div class="rating__value">3.6</div>
+                                            </div>
+                                            <div class="product__card-triggers">
+                                                <div class="product__card-price">
+                                                    519 <sup>$</sup>
+                                                </div>
+                                                <div class="product__card-plus"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product__card">
+                                        <div class="product__card-img">
+                                            <img src="img/product/chair4.png" alt="chair 1">
+                                        </div>
+                                        <div class="product__card-footer">
+                                            <div class="product__card-subtitle">
+                                                Sofa
+                                            </div>
+                                            <div class="product__card-title">
+                                                Nyantuy Chair
+                                            </div>
+                                            <div class="product__card-rating rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="rating__active"></div>
+                                                    <div class="rating__items">
+                                                        <input type="radio" class="rating__item" value="1" name="rating">
+                                                        <input type="radio" class="rating__item" value="2" name="rating">
+                                                        <input type="radio" class="rating__item" value="3" name="rating">
+                                                        <input type="radio" class="rating__item" value="4" name="rating">
+                                                        <input type="radio" class="rating__item" value="5" name="rating">
+                                                    </div>
+                                                </div>
+                                                <div class="rating__value">3.6</div>
+                                            </div>
+                                            <div class="product__card-triggers">
+                                                <div class="product__card-price">
+                                                    921 <sup>$</sup>
+                                                </div>
+                                                <div class="product__card-plus"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product__card">
+                                        <div class="product__card-img">
+                                            <img src="img/product/chair3.png" alt="chair 1">
+                                        </div>
+                                        <div class="product__card-footer">
+                                            <div class="product__card-subtitle">
+                                                Sofa
+                                            </div>
+                                            <div class="product__card-title">
+                                                Anjay Chair
+                                            </div>
+                                            <div class="product__card-rating rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="rating__active"></div>
+                                                    <div class="rating__items">
+                                                        <input type="radio" class="rating__item" value="1" name="rating">
+                                                        <input type="radio" class="rating__item" value="2" name="rating">
+                                                        <input type="radio" class="rating__item" value="3" name="rating">
+                                                        <input type="radio" class="rating__item" value="4" name="rating">
+                                                        <input type="radio" class="rating__item" value="5" name="rating">
+                                                    </div>
+                                                </div>
+                                                <div class="rating__value">3.6</div>
+                                            </div>
+                                            <div class="product__card-triggers">
+                                                <div class="product__card-price">
+                                                    519 <sup>$</sup>
+                                                </div>
+                                                <div class="product__card-plus"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product__card">
+                                        <div class="product__card-img">
+                                            <img src="img/product/chair4.png" alt="chair 1">
+                                        </div>
+                                        <div class="product__card-footer">
+                                            <div class="product__card-subtitle">
+                                                Sofa
+                                            </div>
+                                            <div class="product__card-title">
+                                                Nyantuy Chair
+                                            </div>
+                                            <div class="product__card-rating rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="rating__active"></div>
+                                                    <div class="rating__items">
+                                                        <input type="radio" class="rating__item" value="1" name="rating">
+                                                        <input type="radio" class="rating__item" value="2" name="rating">
+                                                        <input type="radio" class="rating__item" value="3" name="rating">
+                                                        <input type="radio" class="rating__item" value="4" name="rating">
+                                                        <input type="radio" class="rating__item" value="5" name="rating">
+                                                    </div>
+                                                </div>
+                                                <div class="rating__value">3.6</div>
+                                            </div>
+                                            <div class="product__card-triggers">
+                                                <div class="product__card-price">
+                                                    921 <sup>$</sup>
+                                                </div>
+                                                <div class="product__card-plus"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+                        
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev icon-arrow_slider">
+                            </div>
+                            <div class="swiper-button-next icon-arrow_slider"></div>
+                        
+                            <!-- If we need scrollbar -->
+                            <!-- <div class="swiper-scrollbar"></div> -->
+                        </div>
+                    </div>
+                    <div data-tab-content="4" class="product__tab-pane">
+                        <!-- Slider main container -->
+                        <div class="product__slider swiper swiper1">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <div class="product__card">
+                                        <div class="product__card-img">
+                                            <img src="img/product/chair2.png" alt="chair 1">
+                                        </div>
+                                        <div class="product__card-footer">
+                                            <div class="product__card-subtitle">
+                                                Lamp
+                                            </div>
+                                            <div class="product__card-title">
+                                                Baltsar Chair
+                                            </div>
+                                            <div class="product__card-rating rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="rating__active"></div>
+                                                    <div class="rating__items">
+                                                        <input type="radio" class="rating__item" value="1" name="rating">
+                                                        <input type="radio" class="rating__item" value="2" name="rating">
+                                                        <input type="radio" class="rating__item" value="3" name="rating">
+                                                        <input type="radio" class="rating__item" value="4" name="rating">
+                                                        <input type="radio" class="rating__item" value="5" name="rating">
+                                                    </div>
+                                                </div>
+                                                <div class="rating__value">3.6</div>
+                                            </div>
+                                            <div class="product__card-triggers">
+                                                <div class="product__card-price">
+                                                    299 <sup>$</sup>
+                                                </div>
+                                                <div class="product__card-plus"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product__card">
+                                        <div class="product__card-img">
+                                            <img src="img/product/chair3.png" alt="chair 1">
+                                        </div>
+                                        <div class="product__card-footer">
+                                            <div class="product__card-subtitle">
+                                                Lamp
+                                            </div>
+                                            <div class="product__card-title">
+                                                Anjay Chair
+                                            </div>
+                                            <div class="product__card-rating rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="rating__active"></div>
+                                                    <div class="rating__items">
+                                                        <input type="radio" class="rating__item" value="1" name="rating">
+                                                        <input type="radio" class="rating__item" value="2" name="rating">
+                                                        <input type="radio" class="rating__item" value="3" name="rating">
+                                                        <input type="radio" class="rating__item" value="4" name="rating">
+                                                        <input type="radio" class="rating__item" value="5" name="rating">
+                                                    </div>
+                                                </div>
+                                                <div class="rating__value">3.6</div>
+                                            </div>
+                                            <div class="product__card-triggers">
+                                                <div class="product__card-price">
+                                                    519 <sup>$</sup>
+                                                </div>
+                                                <div class="product__card-plus"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product__card">
+                                        <div class="product__card-img">
+                                            <img src="img/product/chair2.png" alt="chair 1">
+                                        </div>
+                                        <div class="product__card-footer">
+                                            <div class="product__card-subtitle">
+                                                Lamp
+                                            </div>
+                                            <div class="product__card-title">
+                                                Baltsar Chair
+                                            </div>
+                                            <div class="product__card-rating rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="rating__active"></div>
+                                                    <div class="rating__items">
+                                                        <input type="radio" class="rating__item" value="1" name="rating">
+                                                        <input type="radio" class="rating__item" value="2" name="rating">
+                                                        <input type="radio" class="rating__item" value="3" name="rating">
+                                                        <input type="radio" class="rating__item" value="4" name="rating">
+                                                        <input type="radio" class="rating__item" value="5" name="rating">
+                                                    </div>
+                                                </div>
+                                                <div class="rating__value">3.6</div>
+                                            </div>
+                                            <div class="product__card-triggers">
+                                                <div class="product__card-price">
+                                                    299 <sup>$</sup>
+                                                </div>
+                                                <div class="product__card-plus"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="product__card">
+                                        <div class="product__card-img">
+                                            <img src="img/product/chair3.png" alt="chair 1">
+                                        </div>
+                                        <div class="product__card-footer">
+                                            <div class="product__card-subtitle">
+                                                Lamp
+                                            </div>
+                                            <div class="product__card-title">
+                                                Anjay Chair
+                                            </div>
+                                            <div class="product__card-rating rating rating_set">
+                                                <div class="rating__body">
+                                                    <div class="rating__active"></div>
+                                                    <div class="rating__items">
+                                                        <input type="radio" class="rating__item" value="1" name="rating">
+                                                        <input type="radio" class="rating__item" value="2" name="rating">
+                                                        <input type="radio" class="rating__item" value="3" name="rating">
+                                                        <input type="radio" class="rating__item" value="4" name="rating">
+                                                        <input type="radio" class="rating__item" value="5" name="rating">
+                                                    </div>
+                                                </div>
+                                                <div class="rating__value">3.6</div>
+                                            </div>
+                                            <div class="product__card-triggers">
+                                                <div class="product__card-price">
+                                                    519 <sup>$</sup>
+                                                </div>
+                                                <div class="product__card-plus"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+                        
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev icon-arrow_slider">
+                            </div>
+                            <div class="swiper-button-next icon-arrow_slider"></div>
+                        
+                            <!-- If we need scrollbar -->
+                            <!-- <div class="swiper-scrollbar"></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="product__link">
+                <div class=" more ">
+                    View All
+                </div>
+                <span class="icon-arrow"></span>
+            </a>
+            
+        </div>
+    </section>
+    <section class="experience">
+        <div class="container">
+            <div class="experience__wrapper">
+                <div class="experience__img">
+                    <img src="img/experience.jpg" alt="experience_photo" class="experience__img_main">
+                    <img src="img/exp_bg.png" alt="" class="experience__img_bg">
+                </div>
+                <div class="experience__text">
+                    <div class="experience__sutitle subtitle">
+                        experiences
+                    </div>
+                    <h2 class="experience__title title">
+                        We provide you the best experience
+                    </h2>
+                    <div class="experience__info">
+                        You don’t have to worry about the result because all of these interiors are made by people who are professionals in their fields with an elegant and lucurious style and with premium quality materials
+                    </div>
+                    <a href="#" class="experience__more">
+                        <div class=" more ">
+                            More Info
+                        </div>
+                        <span class="icon-arrow"></span>
+                    </a> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="materials">
+        <div class="container">
+            <div class="materials__wrapper">
+                <div class="materials__text">
+                    <div class="materials__sutitle subtitle">
+                        Materials
+                    </div>
+                    <h2 class="materials__title title">
+                        Very serious materials for making furniture
+                    </h2>
+                    <div class="materials__info">
+                        Because panto was very serious about designing furniture for our environment, using a very expensive and famous capital but at a relatively low price
+                    </div>
+                    <a href="#" class="materials__more">
+                        <div class=" more ">
+                            More Info
+                        </div>
+                        <span class="icon-arrow"></span>
+                    </a> 
+                </div>
+                <div class="materials__img img-grid">
+                    <div class="img-grid_1">
+                        <img src="img/materials/materials1.jpg" alt="" >
+                    </div>
+                    <div class="img-grid_2">
+                        <img src="img/materials/materials2.jpg" alt="" >
+                    </div>
+                    <div class="img-grid_3">
+                        <img src="img/materials/materials3.jpg" alt="" >
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <div class="reviews__subtitle subtitle">
+                Testimonials
+            </div>
+            <h2 class="reviews__title title">
+                Our Client Reviews
+            </h2>
+            <div class="reviews__slider">
+                <!-- Slider main container -->
+                <div class="reviews__slider swiper swiper2">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__wrapper card_1">
+                            <div class="reviews__card">
+                                <div class="reviews__photo">
+                                    <img src="img/reviews/men1.png" alt="men">
+                                </div>
+                                <div class="reviews__name">
+                                    Bang Upin
+                                </div>
+                                <div class="reviews__job">
+                                    Pedagang Asongan
+                                </div>
+                                <div class="reviews__text">
+                                    “Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal“
+                                </div>
+                                <div class="reviews__rating rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active icon-star"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" class="rating__item" value="1" name="rating">
+                                            <input type="radio" class="rating__item" value="2" name="rating">
+                                            <input type="radio" class="rating__item" value="3" name="rating">
+                                            <input type="radio" class="rating__item" value="4" name="rating">
+                                            <input type="radio" class="rating__item" value="5" name="rating">
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">4.0</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="reviews__slide swiper-slide">
+                        <div class="reviews__wrapper card_2">
+                            <div class="reviews__card ">
+                                <div class="reviews__photo">
+                                    <img src="img/reviews/men2.png" alt="men">
+                                </div>
+                                <div class="reviews__name">
+                                    Ibuk Sukijan
+                                </div>
+                                <div class="reviews__job">
+                                    Ibu Rumah Tangga
+                                </div>
+                                <div class="reviews__text">
+                                    “Makasih Panto, aku sekarang berasa tinggal di apartment karena barang-barang yang terlihat mewah“
+                                </div>
+                                <div class="reviews__rating rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active icon-star"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" class="rating__item" value="1" name="rating">
+                                            <input type="radio" class="rating__item" value="2" name="rating">
+                                            <input type="radio" class="rating__item" value="3" name="rating">
+                                            <input type="radio" class="rating__item" value="4" name="rating">
+                                            <input type="radio" class="rating__item" value="5" name="rating">
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">4.0</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="reviews__wrapper card_3">
+                            <div class="reviews__card">
+                                <div class="reviews__photo">
+                                    <img src="img/reviews/men3.png" alt="men">
+                                </div>
+                                <div class="reviews__name">
+                                    Mpok Ina
+                                </div>
+                                <div class="reviews__job">
+                                    Karyawan Swasta
+                                </div>
+                                <div class="reviews__text">
+                                    “Sangat terjangkau untuk kantong saya yang tidak terlalu banyak“
+                                </div>
+                                <div class="reviews__rating rating rating_set">
+                                    <div class="rating__body">
+                                        <div class="rating__active icon-star"></div>
+                                        <div class="rating__items">
+                                            <input type="radio" class="rating__item" value="1" name="rating">
+                                            <input type="radio" class="rating__item" value="2" name="rating">
+                                            <input type="radio" class="rating__item" value="3" name="rating">
+                                            <input type="radio" class="rating__item" value="4" name="rating">
+                                            <input type="radio" class="rating__item" value="5" name="rating">
+                                        </div>
+                                    </div>
+                                    <div class="rating__value">4.0</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev icon-arrow_slider"></div>
+                    <div class="swiper-button-next icon-arrow_slider"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__main">
+                    <div class="footer__info">
+                        <div class="footer__info-logo">
+                            Panto
+                        </div>
+                        <div class="footer__info-desc">
+                            The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.
+                        </div>
+                    </div>
+                    <div data-spollers="1000,max" class="block footer__menu">
+                        <div class="footer__info">
+                            <button tabindex="-1" type="button" data-spoller class="footer__menu-title">Services</button>
+                            <ul class="footer__list">
+                                <li class="footer__list-item"><a href="#">Email Marketing</a></li>
+                                <li class="footer__list-item"><a href="#">Campaigns</a></li>
+                                <li class="footer__list-item"><a href="#">Branding</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__info">
+                            <button tabindex="-1" type="button" data-spoller class="footer__menu-title">Furniture</button>
+                            <ul class="footer__list">
+                                <li class="footer__list-item"><a href="#">Beds</a></li>
+                                <li class="footer__list-item"><a href="#">Chair</a></li>
+                                <li class="footer__list-item"><a href="#">All</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__info">
+                            <button tabindex="-1" type="button" data-spoller class="footer__menu-title">Follow Us</button>
+                            <ul class="footer__list">
+                                <li class="footer__list-item icon-facebook"><a href="#">Facebook</a></li>
+                                <li class="footer__list-item icon-twitter"><a href="#">Twitter</a></li>
+                                <li class="footer__list-item icon-instagram"><a href="#">Instagram</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div data-spollers="1000,max" class="footer__accordion">
+                            <button tabindex="-1" type="button" data-spoller class="accordion">Services</button>
+                            <ul class="panel">
+                                <li class="footer__list-item"><a href="#">Email Marketing</a></li>
+                                <li class="footer__list-item"><a href="#">Campaigns</a></li>
+                                <li class="footer__list-item"><a href="#">Branding</a></li>
+                            </ul>
+                            <button tabindex="-1" type="button" data-spoller class="accordion">Furniture</button>
+                            <ul class="panel">
+                                <li class="footer__list-item"><a href="#">Beds</a></li>
+                                <li class="footer__list-item"><a href="#">Chair</a></li>
+                                <li class="footer__list-item"><a href="#">All</a></li>
+                            </ul>
+                            <button tabindex="-1" type="button" data-spoller class="accordion">Follow Us</button>
+                            <ul class="panel">
+                                <li class="footer__list-item icon-facebook"><a href="#">Facebook</a></li>
+                                <li class="footer__list-item icon-twitter"><a href="#">Twitter</a></li>
+                                <li class="footer__list-item icon-instagram"><a href="#">Instagram</a></li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="footer__footer">
+                    <div class="footer__copyright">
+                        Copyright © 2021
+                    </div>
+                    <div class="footer__agree">
+                        <div class="footer__agree1">
+                            Terms & Conditions
+                        </div>
+                        <div class="footer__agree2">
+                            Privacy Policy
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <div data-close class="modal__close">&times;</div>
+                <div class="modal__title">Ваш заказ:</div>
+                    <ul class="cart-content__list">
+                        
+                    </ul>
+                <div class="full__price">Итого: </div>
+                <button class="btn">Заказать</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+</body>
+</html>
